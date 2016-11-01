@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map K.39 on Tue May 29 19:43:45 2012
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "iBTN<0>" LOCATE = SITE "V4" LEVEL 1;
+COMP "iBTN<1>" LOCATE = SITE "K17" LEVEL 1;
+COMP "iCLK_50" LOCATE = SITE "C9" LEVEL 1;
+COMP "reset" LOCATE = SITE "H13" LEVEL 1;
+COMP "oHS" LOCATE = SITE "F15" LEVEL 1;
+COMP "oVS" LOCATE = SITE "F14" LEVEL 1;
+COMP "oVGA_B" LOCATE = SITE "G15" LEVEL 1;
+COMP "oVGA_G" LOCATE = SITE "H15" LEVEL 1;
+COMP "oVGA_R" LOCATE = SITE "H14" LEVEL 1;
+NET "iCLK_50_BUFGP/IBUFG" BEL "iCLK_50_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
