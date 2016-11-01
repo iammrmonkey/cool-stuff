@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map K.39 on Tue May 08 20:28:49 2012
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "iCLK" LOCATE = SITE "C9" LEVEL 1;
+COMP "iSW<0>" LOCATE = SITE "L13" LEVEL 1;
+COMP "iSW<1>" LOCATE = SITE "L14" LEVEL 1;
+COMP "iSW<2>" LOCATE = SITE "H18" LEVEL 1;
+COMP "iSW<3>" LOCATE = SITE "N17" LEVEL 1;
+COMP "iBTN" LOCATE = SITE "K17" LEVEL 1;
+COMP "oLED<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "oLED<1>" LOCATE = SITE "E12" LEVEL 1;
+COMP "oLED<2>" LOCATE = SITE "E11" LEVEL 1;
+COMP "oLED<3>" LOCATE = SITE "F11" LEVEL 1;
+COMP "oLED<4>" LOCATE = SITE "C11" LEVEL 1;
+COMP "oLED<5>" LOCATE = SITE "D11" LEVEL 1;
+COMP "oLED<6>" LOCATE = SITE "E9" LEVEL 1;
+COMP "oLED<7>" LOCATE = SITE "F9" LEVEL 1;
+NET "iCLK_BUFGP/IBUFG" BEL "iCLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

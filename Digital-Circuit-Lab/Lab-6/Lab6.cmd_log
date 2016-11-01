@@ -1,0 +1,284 @@
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
+xst -ise "Z:/Lab6/Lab6.ise" -intstyle ise -ifn "Z:/Lab6/Lab6.xst" -ofn "Z:/Lab6/Lab6.syr"
+ngdbuild -ise "Z:/Lab6/Lab6.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab6.ngc" Lab6.ngd
+map -ise "Z:/Lab6/Lab6.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Lab6_map.ncd Lab6.ngd Lab6.pcf
+par -ise "Z:/Lab6/Lab6.ise" -w -intstyle ise -ol std -t 1 Lab6_map.ncd Lab6.ncd Lab6.pcf
+trce -ise "Z:/Lab6/Lab6.ise" -intstyle ise -v 3 -s 4 -xml Lab6 Lab6.ncd -o Lab6.twr Lab6.pcf -ucf Lab6.ucf
+bitgen -ise "Z:/Lab6/Lab6.ise" -intstyle ise -f Lab6.ut Lab6.ncd
