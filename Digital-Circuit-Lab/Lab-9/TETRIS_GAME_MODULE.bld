@@ -1,0 +1,45 @@
+Release 10.1.03 ngdbuild K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise
+Z:/Lab09/Lab09.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4
+TETRIS_GAME_MODULE.ngc TETRIS_GAME_MODULE.ngd
+
+Reading NGO file "Z:/Lab09/TETRIS_GAME_MODULE.ngc" ...
+Reading in constraint information from 'PING_PONG_GAME.ucf'...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:119 - Constraint <NET "iBTN[0]" LOC = "V4"  |>
+   [PING_PONG_GAME.ucf(4)]: This constraint cannot be distributed from the
+   design objects matching 'NET "iBTN[0]"' because those design objects do not
+   contain or drive any instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <IOSTANDARD = LVTTL |>
+   [PING_PONG_GAME.ucf(4)]: This constraint cannot be distributed from the
+   design objects matching 'NET "iBTN[0]"' because those design objects do not
+   contain or drive any instances of the correct type.
+
+Done...
+Checking Partitions ...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   2
+
+Total memory usage is 71228 kilobytes
+
+Writing NGD file "TETRIS_GAME_MODULE.ngd" ...
+
+Writing NGDBUILD log file "TETRIS_GAME_MODULE.bld"...

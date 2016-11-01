@@ -1,0 +1,93 @@
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"
+ngdbuild -ise "Z:/Lab09/Lab09.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "TETRIS_GAME_MODULE.ngc" TETRIS_GAME_MODULE.ngd
+map -ise "Z:/Lab09/Lab09.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ngd TETRIS_GAME_MODULE.pcf
+par -ise "Z:/Lab09/Lab09.ise" -w -intstyle ise -ol std -t 1 TETRIS_GAME_MODULE_map.ncd TETRIS_GAME_MODULE.ncd TETRIS_GAME_MODULE.pcf
+trce -ise "Z:/Lab09/Lab09.ise" -intstyle ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+bitgen -ise "Z:/Lab09/Lab09.ise" -intstyle ise -f TETRIS_GAME_MODULE.ut TETRIS_GAME_MODULE.ncd
+xst -ise "Z:/Lab09/Lab09.ise" -intstyle ise -ifn "Z:/Lab09/TETRIS_GAME_MODULE.xst" -ofn "Z:/Lab09/TETRIS_GAME_MODULE.syr"

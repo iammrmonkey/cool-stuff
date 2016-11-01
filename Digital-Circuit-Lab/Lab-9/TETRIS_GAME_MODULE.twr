@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------
+Release 10.1.03 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\trce.exe -ise Z:/Lab09/Lab09.ise -intstyle
+ise -v 3 -s 4 -xml TETRIS_GAME_MODULE TETRIS_GAME_MODULE.ncd -o
+TETRIS_GAME_MODULE.twr TETRIS_GAME_MODULE.pcf -ucf PING_PONG_GAME.ucf
+
+Design file:              TETRIS_GAME_MODULE.ncd
+Physical constraint file: TETRIS_GAME_MODULE.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2008-01-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock iCLK_50
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+iBTN<1>     |    6.996(R)|    0.486(R)|iCLK_50_BUFGP     |   0.000|
+iBTN<2>     |    5.312(R)|   -0.517(R)|iCLK_50_BUFGP     |   0.000|
+iBTN<3>     |    6.603(R)|   -3.388(R)|iCLK_50_BUFGP     |   0.000|
+reset       |    4.251(R)|    0.318(R)|iCLK_50_BUFGP     |   0.000|
+start       |    3.110(R)|    0.816(R)|iCLK_50_BUFGP     |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock iCLK_50 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+oHS         |    8.078(R)|iCLK_50_BUFGP     |   0.000|
+oVGA_B      |    8.222(R)|iCLK_50_BUFGP     |   0.000|
+oVGA_G      |    7.912(R)|iCLK_50_BUFGP     |   0.000|
+oVGA_R      |    8.453(R)|iCLK_50_BUFGP     |   0.000|
+oVS         |    9.014(R)|iCLK_50_BUFGP     |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock iCLK_50
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+iCLK_50        |    9.545|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri Jun 08 23:01:37 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 97 MB
+
+
+

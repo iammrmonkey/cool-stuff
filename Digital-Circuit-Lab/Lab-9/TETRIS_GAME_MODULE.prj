@@ -1,0 +1,5 @@
+verilog work "font_rom.v"
+verilog work "vga_sync.v"
+verilog work "tetris_game.v"
+verilog work "controll_text.v"
+verilog work "TETRIS_GAME_MODULE.v"
