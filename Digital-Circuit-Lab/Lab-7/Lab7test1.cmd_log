@@ -1,0 +1,2 @@
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/Lab7test1.xst" -ofn "Z:/Lab07/Lab7test1.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Lab7test1.ngc" Lab7test1.ngd

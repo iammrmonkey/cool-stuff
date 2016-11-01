@@ -1,0 +1,6 @@
+verilog work "VGA_control.v"
+verilog work "Rotation_direction.v"
+verilog work "PS2_control.v"
+verilog work "draw_ball.v"
+verilog work "control_ball.v"
+verilog work "ballgame.v"

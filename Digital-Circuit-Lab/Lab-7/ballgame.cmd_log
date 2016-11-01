@@ -1,0 +1,74 @@
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+map -ise "Z:/Lab07/Lab07.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o ballgame_map.ncd ballgame.ngd ballgame.pcf
+par -ise "Z:/Lab07/Lab07.ise" -w -intstyle ise -ol std -t 1 ballgame_map.ncd ballgame.ncd ballgame.pcf
+trce -ise "Z:/Lab07/Lab07.ise" -intstyle ise -v 3 -s 4 -xml ballgame ballgame.ncd -o ballgame.twr ballgame.pcf -ucf ballgame.ucf
+bitgen -ise "Z:/Lab07/Lab07.ise" -intstyle ise -f ballgame.ut ballgame.ncd
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+map -ise "Z:/Lab07/Lab07.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o ballgame_map.ncd ballgame.ngd ballgame.pcf
+par -ise "Z:/Lab07/Lab07.ise" -w -intstyle ise -ol std -t 1 ballgame_map.ncd ballgame.ncd ballgame.pcf
+trce -ise "Z:/Lab07/Lab07.ise" -intstyle ise -v 3 -s 4 -xml ballgame ballgame.ncd -o ballgame.twr ballgame.pcf -ucf ballgame.ucf
+bitgen -ise "Z:/Lab07/Lab07.ise" -intstyle ise -f ballgame.ut ballgame.ncd
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+map -ise "Z:/Lab07/Lab07.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o ballgame_map.ncd ballgame.ngd ballgame.pcf
+par -ise "Z:/Lab07/Lab07.ise" -w -intstyle ise -ol std -t 1 ballgame_map.ncd ballgame.ncd ballgame.pcf
+trce -ise "Z:/Lab07/Lab07.ise" -intstyle ise -v 3 -s 4 -xml ballgame ballgame.ncd -o ballgame.twr ballgame.pcf -ucf ballgame.ucf
+bitgen -ise "Z:/Lab07/Lab07.ise" -intstyle ise -f ballgame.ut ballgame.ncd
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+map -ise "Z:/Lab07/Lab07.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o ballgame_map.ncd ballgame.ngd ballgame.pcf
+par -ise "Z:/Lab07/Lab07.ise" -w -intstyle ise -ol std -t 1 ballgame_map.ncd ballgame.ncd ballgame.pcf
+trce -ise "Z:/Lab07/Lab07.ise" -intstyle ise -v 3 -s 4 -xml ballgame ballgame.ncd -o ballgame.twr ballgame.pcf -ucf ballgame.ucf
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+map -ise "Z:/Lab07/Lab07.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o ballgame_map.ncd ballgame.ngd ballgame.pcf
+par -ise "Z:/Lab07/Lab07.ise" -w -intstyle ise -ol std -t 1 ballgame_map.ncd ballgame.ncd ballgame.pcf
+trce -ise "Z:/Lab07/Lab07.ise" -intstyle ise -v 3 -s 4 -xml ballgame ballgame.ncd -o ballgame.twr ballgame.pcf -ucf ballgame.ucf
+bitgen -ise "Z:/Lab07/Lab07.ise" -intstyle ise -f ballgame.ut ballgame.ncd
+bitgen -ise "Z:/Lab07/Lab07.ise" -intstyle ise -f ballgame.ut ballgame.ncd
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+map -ise "Z:/Lab07/Lab07.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o ballgame_map.ncd ballgame.ngd ballgame.pcf
+par -ise "Z:/Lab07/Lab07.ise" -w -intstyle ise -ol std -t 1 ballgame_map.ncd ballgame.ncd ballgame.pcf
+trce -ise "Z:/Lab07/Lab07.ise" -intstyle ise -v 3 -s 4 -xml ballgame ballgame.ncd -o ballgame.twr ballgame.pcf -ucf ballgame.ucf
+bitgen -ise "Z:/Lab07/Lab07.ise" -intstyle ise -f ballgame.ut ballgame.ncd
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+map -ise "Z:/Lab07/Lab07.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o ballgame_map.ncd ballgame.ngd ballgame.pcf
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+map -ise "Z:/Lab07/Lab07.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o ballgame_map.ncd ballgame.ngd ballgame.pcf
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+par -ise "Z:/Lab07/Lab07.ise" -w -intstyle ise -ol std -t 1 ballgame_map.ncd ballgame.ncd ballgame.pcf
+trce -ise "Z:/Lab07/Lab07.ise" -intstyle ise -v 3 -s 4 -xml ballgame ballgame.ncd -o ballgame.twr ballgame.pcf -ucf ballgame.ucf
+bitgen -ise "Z:/Lab07/Lab07.ise" -intstyle ise -f ballgame.ut ballgame.ncd
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+map -ise "Z:/Lab07/Lab07.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o ballgame_map.ncd ballgame.ngd ballgame.pcf
+par -ise "Z:/Lab07/Lab07.ise" -w -intstyle ise -ol std -t 1 ballgame_map.ncd ballgame.ncd ballgame.pcf
+trce -ise "Z:/Lab07/Lab07.ise" -intstyle ise -v 3 -s 4 -xml ballgame ballgame.ncd -o ballgame.twr ballgame.pcf -ucf ballgame.ucf
+bitgen -ise "Z:/Lab07/Lab07.ise" -intstyle ise -f ballgame.ut ballgame.ncd
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+map -ise "Z:/Lab07/Lab07.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o ballgame_map.ncd ballgame.ngd ballgame.pcf
+par -ise "Z:/Lab07/Lab07.ise" -w -intstyle ise -ol std -t 1 ballgame_map.ncd ballgame.ncd ballgame.pcf
+trce -ise "Z:/Lab07/Lab07.ise" -intstyle ise -v 3 -s 4 -xml ballgame ballgame.ncd -o ballgame.twr ballgame.pcf -ucf ballgame.ucf
+bitgen -ise "Z:/Lab07/Lab07.ise" -intstyle ise -f ballgame.ut ballgame.ncd
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+map -ise "Z:/Lab07/Lab07.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o ballgame_map.ncd ballgame.ngd ballgame.pcf
+par -ise "Z:/Lab07/Lab07.ise" -w -intstyle ise -ol std -t 1 ballgame_map.ncd ballgame.ncd ballgame.pcf
+trce -ise "Z:/Lab07/Lab07.ise" -intstyle ise -v 3 -s 4 -xml ballgame ballgame.ncd -o ballgame.twr ballgame.pcf -ucf ballgame.ucf
+bitgen -ise "Z:/Lab07/Lab07.ise" -intstyle ise -f ballgame.ut ballgame.ncd
+xst -ise "Z:/Lab07/Lab07.ise" -intstyle ise -ifn "Z:/Lab07/ballgame.xst" -ofn "Z:/Lab07/ballgame.syr"
+ngdbuild -ise "Z:/Lab07/Lab07.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "ballgame.ngc" ballgame.ngd
+map -ise "Z:/Lab07/Lab07.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o ballgame_map.ncd ballgame.ngd ballgame.pcf
+par -ise "Z:/Lab07/Lab07.ise" -w -intstyle ise -ol std -t 1 ballgame_map.ncd ballgame.ncd ballgame.pcf
+trce -ise "Z:/Lab07/Lab07.ise" -intstyle ise -v 3 -s 4 -xml ballgame ballgame.ncd -o ballgame.twr ballgame.pcf -ucf ballgame.ucf
+bitgen -ise "Z:/Lab07/Lab07.ise" -intstyle ise -f ballgame.ut ballgame.ncd

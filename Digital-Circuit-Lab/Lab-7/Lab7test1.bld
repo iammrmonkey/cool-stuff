@@ -1,0 +1,282 @@
+Release 10.1.03 ngdbuild K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise
+Z:/Lab07/Lab07.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4
+Lab7test1.ngc Lab7test1.ngd
+
+Reading NGO file "Z:/Lab07/Lab7test1.ngc" ...
+Reading in constraint information from 'Lab7-test1.ucf'...
+Reading in constraint information from 'ballgame.ucf'...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:119 - Constraint <NET "iSW[2]"  LOC = "H18" |>
+   [Lab7-test1.ucf(7)]: This constraint cannot be distributed from the design
+   objects matching 'NET "iSW[2]"' because those design objects do not contain
+   or drive any instances of the correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(7)]: This constraint cannot be distributed from the design
+   objects matching 'NET "iSW[2]"' because those design objects do not contain
+   or drive any instances of the correct type.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "PS2_CLK"  LOC = "G14" |>
+   [ballgame.ucf(5)]: NET "PS2_CLK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [ballgame.ucf(5)]: NET "PS2_CLK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = SLOW |> [ballgame.ucf(5)]: NET
+   "PS2_CLK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <DRIVE = 8;> [ballgame.ucf(5)]: NET
+   "PS2_CLK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "PS2_DATA" LOC = "G13" |>
+   [ballgame.ucf(6)]: NET "PS2_DATA" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 |>
+   [ballgame.ucf(6)]: NET "PS2_DATA" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <SLEW = SLOW |> [ballgame.ucf(6)]: NET
+   "PS2_DATA" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <DRIVE = 8;> [ballgame.ucf(6)]: NET
+   "PS2_DATA" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "iSW3"  LOC = "N17" |>
+   [ballgame.ucf(7)]: NET "iSW3" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(7)]:
+   NET "iSW3" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <PULLUP;> [ballgame.ucf(7)]: NET "iSW3"
+   not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:NgdBuild:1012 - The constraint <NET "iCLK_50"  LOC = "C9" |>
+   [Lab7-test1.ucf(4)] is overridden on the design object iCLK_50 by the
+   constraint <NET "iCLK_50"  LOC = "C9" |> [ballgame.ucf(4)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVCMOS33;>
+   [Lab7-test1.ucf(4)] is overridden on the design object iCLK_50 by the
+   constraint <IOSTANDARD = LVCMOS33;> [ballgame.ucf(4)].
+WARNING:NgdBuild:1012 - The constraint <NET "oHS"  LOC = "F15" |>
+   [Lab7-test1.ucf(9)] is overridden on the design object oHS by the constraint
+   <NET "oHS"  LOC = "F15" |> [ballgame.ucf(8)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(9)] is overridden on the design object oHS by the constraint
+   <IOSTANDARD = LVTTL |> [ballgame.ucf(8)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8 |> [Lab7-test1.ucf(9)] is
+   overridden on the design object oHS by the constraint <DRIVE = 8 |>
+   [ballgame.ucf(8)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = FAST;> [Lab7-test1.ucf(9)] is
+   overridden on the design object oHS by the constraint <SLEW = FAST;>
+   [ballgame.ucf(8)].
+WARNING:NgdBuild:1012 - The constraint <NET "oLED[0]"  LOC = "F12" |>
+   [Lab7-test1.ucf(10)] is overridden on the design object oLED<0> by the
+   constraint <NET "oLED[0]"  LOC = "F12" |> [ballgame.ucf(9)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(10)] is overridden on the design object oLED<0> by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(9)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = SLOW |> [Lab7-test1.ucf(10)] is
+   overridden on the design object oLED<0> by the constraint <SLEW = SLOW |>
+   [ballgame.ucf(9)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8;> [Lab7-test1.ucf(10)] is
+   overridden on the design object oLED<0> by the constraint <DRIVE = 8;>
+   [ballgame.ucf(9)].
+WARNING:NgdBuild:1012 - The constraint <NET "oLED[1]"  LOC = "E12" |>
+   [Lab7-test1.ucf(11)] is overridden on the design object oLED<1> by the
+   constraint <NET "oLED[1]"  LOC = "E12" |> [ballgame.ucf(10)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(11)] is overridden on the design object oLED<1> by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(10)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = SLOW |> [Lab7-test1.ucf(11)] is
+   overridden on the design object oLED<1> by the constraint <SLEW = SLOW |>
+   [ballgame.ucf(10)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8;> [Lab7-test1.ucf(11)] is
+   overridden on the design object oLED<1> by the constraint <DRIVE = 8;>
+   [ballgame.ucf(10)].
+WARNING:NgdBuild:1012 - The constraint <NET "oLED[2]"  LOC = "E11" |>
+   [Lab7-test1.ucf(12)] is overridden on the design object oLED<2> by the
+   constraint <NET "oLED[2]"  LOC = "E11" |> [ballgame.ucf(11)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(12)] is overridden on the design object oLED<2> by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(11)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = SLOW |> [Lab7-test1.ucf(12)] is
+   overridden on the design object oLED<2> by the constraint <SLEW = SLOW |>
+   [ballgame.ucf(11)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8;> [Lab7-test1.ucf(12)] is
+   overridden on the design object oLED<2> by the constraint <DRIVE = 8;>
+   [ballgame.ucf(11)].
+WARNING:NgdBuild:1012 - The constraint <NET "oLED[3]"  LOC = "F11" |>
+   [Lab7-test1.ucf(13)] is overridden on the design object oLED<3> by the
+   constraint <NET "oLED[3]"  LOC = "F11" |> [ballgame.ucf(12)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(13)] is overridden on the design object oLED<3> by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(12)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = SLOW |> [Lab7-test1.ucf(13)] is
+   overridden on the design object oLED<3> by the constraint <SLEW = SLOW |>
+   [ballgame.ucf(12)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8;> [Lab7-test1.ucf(13)] is
+   overridden on the design object oLED<3> by the constraint <DRIVE = 8;>
+   [ballgame.ucf(12)].
+WARNING:NgdBuild:1012 - The constraint <NET "oLED[4]"  LOC = "C11" |>
+   [Lab7-test1.ucf(14)] is overridden on the design object oLED<4> by the
+   constraint <NET "oLED[4]"  LOC = "C11" |> [ballgame.ucf(13)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(14)] is overridden on the design object oLED<4> by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(13)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = SLOW |> [Lab7-test1.ucf(14)] is
+   overridden on the design object oLED<4> by the constraint <SLEW = SLOW |>
+   [ballgame.ucf(13)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8;> [Lab7-test1.ucf(14)] is
+   overridden on the design object oLED<4> by the constraint <DRIVE = 8;>
+   [ballgame.ucf(13)].
+WARNING:NgdBuild:1012 - The constraint <NET "oLED[5]"  LOC = "D11" |>
+   [Lab7-test1.ucf(15)] is overridden on the design object oLED<5> by the
+   constraint <NET "oLED[5]"  LOC = "D11" |> [ballgame.ucf(14)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(15)] is overridden on the design object oLED<5> by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(14)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = SLOW |> [Lab7-test1.ucf(15)] is
+   overridden on the design object oLED<5> by the constraint <SLEW = SLOW |>
+   [ballgame.ucf(14)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8;> [Lab7-test1.ucf(15)] is
+   overridden on the design object oLED<5> by the constraint <DRIVE = 8;>
+   [ballgame.ucf(14)].
+WARNING:NgdBuild:1012 - The constraint <NET "oLED[6]"  LOC = "E9" |>
+   [Lab7-test1.ucf(16)] is overridden on the design object oLED<6> by the
+   constraint <NET "oLED[6]"  LOC = "E9" |> [ballgame.ucf(15)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(16)] is overridden on the design object oLED<6> by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(15)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = SLOW |> [Lab7-test1.ucf(16)] is
+   overridden on the design object oLED<6> by the constraint <SLEW = SLOW |>
+   [ballgame.ucf(15)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8;> [Lab7-test1.ucf(16)] is
+   overridden on the design object oLED<6> by the constraint <DRIVE = 8;>
+   [ballgame.ucf(15)].
+WARNING:NgdBuild:1012 - The constraint <NET "oLED[7]"  LOC = "F9" |>
+   [Lab7-test1.ucf(17)] is overridden on the design object oLED<7> by the
+   constraint <NET "oLED[7]"  LOC = "F9" |> [ballgame.ucf(16)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(17)] is overridden on the design object oLED<7> by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(16)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = SLOW |> [Lab7-test1.ucf(17)] is
+   overridden on the design object oLED<7> by the constraint <SLEW = SLOW |>
+   [ballgame.ucf(16)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8;> [Lab7-test1.ucf(17)] is
+   overridden on the design object oLED<7> by the constraint <DRIVE = 8;>
+   [ballgame.ucf(16)].
+WARNING:NgdBuild:1012 - The constraint <NET "oVGA_B"  LOC = "G15" |>
+   [Lab7-test1.ucf(18)] is overridden on the design object oVGA_B.PAD by the
+   constraint <NET "oVGA_B"  LOC = "G15" |> [ballgame.ucf(17)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(18)] is overridden on the design object oVGA_B.PAD by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(17)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8 |> [Lab7-test1.ucf(18)] is
+   overridden on the design object oVGA_B.PAD by the constraint <DRIVE = 8 |>
+   [ballgame.ucf(17)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = FAST;> [Lab7-test1.ucf(18)] is
+   overridden on the design object oVGA_B.PAD by the constraint <SLEW = FAST;>
+   [ballgame.ucf(17)].
+WARNING:NgdBuild:1012 - The constraint <NET "oVGA_G"  LOC = "H15" |>
+   [Lab7-test1.ucf(19)] is overridden on the design object oVGA_G.PAD by the
+   constraint <NET "oVGA_G"  LOC = "H15" |> [ballgame.ucf(18)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(19)] is overridden on the design object oVGA_G.PAD by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(18)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8 |> [Lab7-test1.ucf(19)] is
+   overridden on the design object oVGA_G.PAD by the constraint <DRIVE = 8 |>
+   [ballgame.ucf(18)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = FAST;> [Lab7-test1.ucf(19)] is
+   overridden on the design object oVGA_G.PAD by the constraint <SLEW = FAST;>
+   [ballgame.ucf(18)].
+WARNING:NgdBuild:1012 - The constraint <NET "oVGA_R"  LOC = "H14" |>
+   [Lab7-test1.ucf(20)] is overridden on the design object oVGA_R.PAD by the
+   constraint <NET "oVGA_R"  LOC = "H14" |> [ballgame.ucf(19)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(20)] is overridden on the design object oVGA_R.PAD by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(19)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8 |> [Lab7-test1.ucf(20)] is
+   overridden on the design object oVGA_R.PAD by the constraint <DRIVE = 8 |>
+   [ballgame.ucf(19)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = FAST;> [Lab7-test1.ucf(20)] is
+   overridden on the design object oVGA_R.PAD by the constraint <SLEW = FAST;>
+   [ballgame.ucf(19)].
+WARNING:NgdBuild:1012 - The constraint <NET "oVS"  LOC = "F14" |>
+   [Lab7-test1.ucf(21)] is overridden on the design object oVS by the constraint
+   <NET "oVS"  LOC = "F14" |> [ballgame.ucf(20)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(21)] is overridden on the design object oVS by the constraint
+   <IOSTANDARD = LVTTL |> [ballgame.ucf(20)].
+WARNING:NgdBuild:1012 - The constraint <DRIVE = 8 |> [Lab7-test1.ucf(21)] is
+   overridden on the design object oVS by the constraint <DRIVE = 8 |>
+   [ballgame.ucf(20)].
+WARNING:NgdBuild:1012 - The constraint <SLEW = FAST;> [Lab7-test1.ucf(21)] is
+   overridden on the design object oVS by the constraint <SLEW = FAST;>
+   [ballgame.ucf(20)].
+WARNING:NgdBuild:1012 - The constraint <NET "ROT_A"     LOC = "K18" |>
+   [Lab7-test1.ucf(22)] is overridden on the design object ROT_A by the
+   constraint <NET "ROT_A"     LOC = "K18" |> [ballgame.ucf(21)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(22)] is overridden on the design object ROT_A by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(21)].
+WARNING:NgdBuild:1012 - The constraint <PULLUP;> [Lab7-test1.ucf(22)] is
+   overridden on the design object ROT_A by the constraint <PULLUP;>
+   [ballgame.ucf(21)].
+WARNING:NgdBuild:1012 - The constraint <NET "ROT_B"     LOC = "G18" |>
+   [Lab7-test1.ucf(23)] is overridden on the design object ROT_B by the
+   constraint <NET "ROT_B"     LOC = "G18" |> [ballgame.ucf(22)].
+WARNING:NgdBuild:1012 - The constraint <IOSTANDARD = LVTTL |>
+   [Lab7-test1.ucf(23)] is overridden on the design object ROT_B by the
+   constraint <IOSTANDARD = LVTTL |> [ballgame.ucf(22)].
+WARNING:NgdBuild:1012 - The constraint <PULLUP;> [Lab7-test1.ucf(23)] is
+   overridden on the design object ROT_B by the constraint <PULLUP;>
+   [ballgame.ucf(22)].
+Done...
+Checking Partitions ...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    11
+  Number of warnings:  62
+
+Total memory usage is 70204 kilobytes
+
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "Lab7test1.bld"...

@@ -1,0 +1,657 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to Z:/Lab07/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> Parameter xsthdpdir set to Z:/Lab07/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> Reading design: ballgame.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ballgame.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ballgame"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : ballgame
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : ballgame.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "VGA_control.v" in library work
+Compiling verilog file "Rotation_direction.v" in library work
+Module <VGA_control> compiled
+Compiling verilog file "PS2_control.v" in library work
+Module <Rotation_direction> compiled
+Compiling verilog file "draw_ball.v" in library work
+Module <PS2_Control> compiled
+Compiling verilog file "control_ball.v" in library work
+Module <draw_ball> compiled
+Compiling verilog file "ballgame.v" in library work
+Module <control_ball> compiled
+Module <ballgame> compiled
+No errors in compilation
+Analysis of file <"ballgame.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <ballgame> in library <work>.
+
+Analyzing hierarchy for module <VGA_control> in library <work>.
+
+Analyzing hierarchy for module <Rotation_direction> in library <work>.
+
+Analyzing hierarchy for module <control_ball> in library <work>.
+
+Analyzing hierarchy for module <PS2_Control> in library <work>.
+
+Analyzing hierarchy for module <draw_ball> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <ballgame>.
+Module <ballgame> is correct for synthesis.
+ 
+Analyzing module <VGA_control> in library <work>.
+Module <VGA_control> is correct for synthesis.
+ 
+Analyzing module <Rotation_direction> in library <work>.
+Module <Rotation_direction> is correct for synthesis.
+ 
+Analyzing module <control_ball> in library <work>.
+Module <control_ball> is correct for synthesis.
+ 
+Analyzing module <PS2_Control> in library <work>.
+Module <PS2_Control> is correct for synthesis.
+ 
+Analyzing module <draw_ball> in library <work>.
+Module <draw_ball> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <VGA_control>.
+    Related source file is "VGA_control.v".
+    Found 12-bit up counter for signal <hcounter>.
+    Found 1-bit register for signal <visible>.
+    Found 11-bit up counter for signal <vcounter>.
+    Found 1-bit register for signal <oHS>.
+    Found 1-bit register for signal <oVS>.
+    Found 12-bit comparator greatequal for signal <oHS$cmp_ge0000> created at line 62.
+    Found 12-bit comparator less for signal <oHS$cmp_lt0000> created at line 62.
+    Found 11-bit comparator greatequal for signal <oVS$cmp_ge0000> created at line 67.
+    Found 11-bit comparator less for signal <oVS$cmp_lt0000> created at line 67.
+    Found 12-bit comparator less for signal <visible$cmp_lt0000> created at line 57.
+    Found 11-bit comparator less for signal <visible$cmp_lt0001> created at line 57.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+Unit <VGA_control> synthesized.
+
+
+Synthesizing Unit <Rotation_direction>.
+    Related source file is "Rotation_direction.v".
+    Found 1-bit register for signal <rotary_right>.
+    Found 1-bit register for signal <rotary_event>.
+    Found 1-bit register for signal <delay_rotary_q1>.
+    Found 1-bit register for signal <ROT_A_TEMP>.
+    Found 1-bit register for signal <ROT_B_TEMP>.
+    Found 1-bit register for signal <rotary_q1>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q1$mux0000> created at line 41.
+    Found 1-bit register for signal <rotary_q2>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q2$mux0000> created at line 41.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <Rotation_direction> synthesized.
+
+
+Synthesizing Unit <control_ball>.
+    Related source file is "control_ball.v".
+WARNING:Xst:1305 - Output <ball_y> is never assigned. Tied to value 00011110000.
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 12-bit updown accumulator for signal <ball_x>.
+    Found 12-bit comparator greater for signal <ball_x$cmp_gt0000> created at line 33.
+    Found 12-bit comparator less for signal <ball_x$cmp_lt0000> created at line 38.
+    Summary:
+	inferred   1 Accumulator(s).
+	inferred   2 Comparator(s).
+Unit <control_ball> synthesized.
+
+
+Synthesizing Unit <PS2_Control>.
+    Related source file is "PS2_control.v".
+    Found 8-bit register for signal <oLED>.
+    Found 8-bit register for signal <Radius>.
+    Found 1-bit register for signal <a>.
+    Found 1-bit register for signal <b>.
+    Found 8-bit register for signal <c>.
+    Found 22-bit register for signal <data>.
+    Summary:
+	inferred  48 D-type flip-flop(s).
+Unit <PS2_Control> synthesized.
+
+
+Synthesizing Unit <draw_ball>.
+    Related source file is "draw_ball.v".
+    Found 31-bit adder for signal <$add0000> created at line 38.
+    Found 8x8-bit multiplier for signal <$mult0000> created at line 38.
+    Found 13-bit subtractor for signal <a_square$addsub0000> created at line 36.
+    Found 13x13-bit multiplier for signal <a_square$mult0000> created at line 36.
+    Found 13-bit subtractor for signal <b_square$addsub0000> created at line 37.
+    Found 13x13-bit multiplier for signal <b_square$mult0000> created at line 37.
+    Found 31-bit comparator less for signal <VGA_R$cmp_lt0000> created at line 38.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   3 Multiplier(s).
+	inferred   1 Comparator(s).
+Unit <draw_ball> synthesized.
+
+
+Synthesizing Unit <ballgame>.
+    Related source file is "ballgame.v".
+WARNING:Xst:646 - Signal <hcounter<11>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <CLK_25>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <ballgame> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 3
+ 13x13-bit multiplier                                  : 2
+ 8x8-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 3
+ 13-bit subtractor                                     : 2
+ 31-bit adder                                          : 1
+# Counters                                             : 2
+ 11-bit up counter                                     : 1
+ 12-bit up counter                                     : 1
+# Accumulators                                         : 1
+ 12-bit updown accumulator                             : 1
+# Registers                                            : 38
+ 1-bit register                                        : 35
+ 8-bit register                                        : 3
+# Comparators                                          : 9
+ 11-bit comparator greatequal                          : 1
+ 11-bit comparator less                                : 2
+ 12-bit comparator greatequal                          : 1
+ 12-bit comparator greater                             : 1
+ 12-bit comparator less                                : 3
+ 31-bit comparator less                                : 1
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment C:\Xilinx\10.1\ISE.
+
+Synthesizing (advanced) Unit <draw_ball>.
+INFO:Xst:2385 - HDL ADVISOR - You can improve the performance of the multiplier Mmult_a_square_mult0000 by adding 1 register level(s).
+INFO:Xst:2385 - HDL ADVISOR - You can improve the performance of the multiplier Mmult_b_square_mult0000 by adding 1 register level(s).
+INFO:Xst:2385 - HDL ADVISOR - You can improve the performance of the multiplier Mmult__mult0000 by adding 1 register level(s).
+Unit <draw_ball> synthesized (advanced).
+WARNING:Xst:1293 - FF/Latch <c_0> has a constant value of 0 in block <PS2_Control>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <oLED_4> has a constant value of 0 in block <PS2_Control>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <oLED_5> has a constant value of 0 in block <PS2_Control>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <oLED_6> has a constant value of 0 in block <PS2_Control>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <oLED_7> has a constant value of 0 in block <PS2_Control>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Radius_0> has a constant value of 0 in block <PS2_Control>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 3
+ 13x13-bit multiplier                                  : 2
+ 8x8-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 3
+ 13-bit subtractor                                     : 2
+ 31-bit adder                                          : 1
+# Counters                                             : 2
+ 11-bit up counter                                     : 1
+ 12-bit up counter                                     : 1
+# Accumulators                                         : 1
+ 12-bit updown accumulator                             : 1
+# Registers                                            : 53
+ Flip-Flops                                            : 53
+# Comparators                                          : 9
+ 11-bit comparator greatequal                          : 1
+ 11-bit comparator less                                : 2
+ 12-bit comparator greatequal                          : 1
+ 12-bit comparator greater                             : 1
+ 12-bit comparator less                                : 3
+ 31-bit comparator less                                : 1
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ballgame> ...
+
+Optimizing unit <PS2_Control> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ballgame, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 88
+ Flip-Flops                                            : 88
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ballgame.ngr
+Top Level Output File Name         : ballgame
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 400
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 24
+#      LUT2                        : 80
+#      LUT2_L                      : 2
+#      LUT3                        : 26
+#      LUT3_D                      : 4
+#      LUT4                        : 59
+#      LUT4_D                      : 11
+#      LUT4_L                      : 10
+#      MUXCY                       : 101
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 75
+# FlipFlops/Latches                : 88
+#      FD                          : 7
+#      FDC                         : 15
+#      FDCE                        : 11
+#      FDE                         : 39
+#      FDR                         : 2
+#      FDRE                        : 8
+#      FDSE                        : 6
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 5
+#      OBUF                        : 13
+# MULTs                            : 3
+#      MULT18X18SIO                : 3
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      121  out of   4656     2%  
+ Number of Slice Flip Flops:             88  out of   9312     0%  
+ Number of 4 input LUTs:                221  out of   9312     2%  
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of    232     8%  
+ Number of MULT18X18SIOs:                 3  out of     20    15%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+iCLK_50                            | BUFGP                  | 62    |
+CLK_251                            | BUFG                   | 26    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+iSW3                               | IBUF                   | 26    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.986ns (Maximum Frequency: 143.143MHz)
+   Minimum input arrival time before clock: 3.394ns
+   Maximum output required time after clock: 19.969ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'iCLK_50'
+  Clock period: 6.986ns (frequency: 143.143MHz)
+  Total number of paths / destination ports: 1765 / 111
+-------------------------------------------------------------------------
+Delay:               6.986ns (Levels of Logic = 5)
+  Source:            ps2/data_12 (FF)
+  Destination:       ps2/c_2 (FF)
+  Source Clock:      iCLK_50 rising
+  Destination Clock: iCLK_50 rising
+
+  Data Path: ps2/data_12 to ps2/c_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             13   0.591   1.018  ps2/data_12 (ps2/data_12)
+     LUT3:I2->O            3   0.704   0.566  ps2/oLED_cmp_eq000111 (ps2/N9)
+     LUT3_D:I2->LO         1   0.704   0.104  ps2/c_mux0000<3>25 (N84)
+     LUT4:I3->O            1   0.704   0.455  ps2/c_mux0000<3>254 (ps2/N12)
+     LUT3_D:I2->O          1   0.704   0.424  ps2/c_mux0000<5>11 (ps2/N4)
+     LUT4:I3->O            1   0.704   0.000  ps2/c_mux0000<5>1 (ps2/c_mux0000<5>)
+     FDRE:D                    0.308          ps2/c_2
+    ----------------------------------------
+    Total                      6.986ns (4.419ns logic, 2.567ns route)
+                                       (63.3% logic, 36.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_251'
+  Clock period: 5.940ns (frequency: 168.350MHz)
+  Total number of paths / destination ports: 691 / 37
+-------------------------------------------------------------------------
+Delay:               5.940ns (Levels of Logic = 3)
+  Source:            vga_c/vcounter_0 (FF)
+  Destination:       vga_c/vcounter_0 (FF)
+  Source Clock:      CLK_251 rising
+  Destination Clock: CLK_251 rising
+
+  Data Path: vga_c/vcounter_0 to vga_c/vcounter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             4   0.591   0.762  vga_c/vcounter_0 (vga_c/vcounter_0)
+     LUT3_D:I0->O          7   0.704   0.883  vga_c/vcounter_cmp_eq000028 (vga_c/vcounter_cmp_eq000028)
+     LUT3_D:I0->LO         1   0.704   0.104  vga_c/vcounter_cmp_eq000039 (N79)
+     LUT4:I3->O           11   0.704   0.933  vga_c/vcounter_not00011 (vga_c/vcounter_not0001)
+     FDCE:CE                   0.555          vga_c/vcounter_0
+    ----------------------------------------
+    Total                      5.940ns (3.258ns logic, 2.682ns route)
+                                       (54.8% logic, 45.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'iCLK_50'
+  Total number of paths / destination ports: 18 / 18
+-------------------------------------------------------------------------
+Offset:              3.394ns (Levels of Logic = 1)
+  Source:            iSW3 (PAD)
+  Destination:       ps2/Radius_7 (FF)
+  Destination Clock: iCLK_50 rising
+
+  Data Path: iSW3 to ps2/Radius_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            40   1.218   1.265  iSW3_IBUF (iSW3_IBUF)
+     FDSE:S                    0.911          ps2/c_1
+    ----------------------------------------
+    Total                      3.394ns (2.129ns logic, 1.265ns route)
+                                       (62.7% logic, 37.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK_251'
+  Total number of paths / destination ports: 611867 / 5
+-------------------------------------------------------------------------
+Offset:              19.969ns (Levels of Logic = 33)
+  Source:            vga_c/hcounter_0 (FF)
+  Destination:       oVGA_B (PAD)
+  Source Clock:      CLK_251 rising
+
+  Data Path: vga_c/hcounter_0 to oVGA_B
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.591   0.706  vga_c/hcounter_0 (vga_c/hcounter_0)
+     LUT2:I0->O            1   0.704   0.000  d_ball/Msub_a_square_addsub0000_lut<0> (d_ball/Msub_a_square_addsub0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  d_ball/Msub_a_square_addsub0000_cy<0> (d_ball/Msub_a_square_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<1> (d_ball/Msub_a_square_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<2> (d_ball/Msub_a_square_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<3> (d_ball/Msub_a_square_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<4> (d_ball/Msub_a_square_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<5> (d_ball/Msub_a_square_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<6> (d_ball/Msub_a_square_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<7> (d_ball/Msub_a_square_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<8> (d_ball/Msub_a_square_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<9> (d_ball/Msub_a_square_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<10> (d_ball/Msub_a_square_addsub0000_cy<10>)
+     MUXCY:CI->O           0   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<11> (d_ball/Msub_a_square_addsub0000_cy<11>)
+     XORCY:CI->O          12   0.804   0.961  d_ball/Msub_a_square_addsub0000_xor<12> (d_ball/a_square_addsub0000<12>)
+     MULT18X18SIO:A12->P12    1   4.705   0.595  d_ball/Mmult_a_square_mult0000 (d_ball/a_square<12>)
+     LUT2:I0->O            1   0.704   0.000  d_ball/Madd__add0000_lut<12> (d_ball/Madd__add0000_lut<12>)
+     MUXCY:S->O            1   0.464   0.000  d_ball/Madd__add0000_cy<12> (d_ball/Madd__add0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<13> (d_ball/Madd__add0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<14> (d_ball/Madd__add0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<15> (d_ball/Madd__add0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<16> (d_ball/Madd__add0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<17> (d_ball/Madd__add0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<18> (d_ball/Madd__add0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<19> (d_ball/Madd__add0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<20> (d_ball/Madd__add0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<21> (d_ball/Madd__add0000_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<22> (d_ball/Madd__add0000_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<23> (d_ball/Madd__add0000_cy<23>)
+     XORCY:CI->O           1   0.804   0.595  d_ball/Madd__add0000_xor<24> (d_ball/_add0000<24>)
+     LUT3:I0->O            1   0.704   0.000  d_ball/Mcompar_VGA_R_cmp_lt0000_lut<18> (d_ball/Mcompar_VGA_R_cmp_lt0000_lut<18>)
+     MUXCY:S->O            1   0.864   0.499  d_ball/Mcompar_VGA_R_cmp_lt0000_cy<18> (d_ball/Mcompar_VGA_R_cmp_lt0000_cy<18>)
+     LUT2:I1->O            3   0.704   0.531  d_ball/VGA_R_and00001 (oVGA_B_OBUF)
+     OBUF:I->O                 3.272          oVGA_B_OBUF (oVGA_B)
+    ----------------------------------------
+    Total                     19.969ns (16.082ns logic, 3.887ns route)
+                                       (80.5% logic, 19.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'iCLK_50'
+  Total number of paths / destination ports: 295600 / 7
+-------------------------------------------------------------------------
+Offset:              19.873ns (Levels of Logic = 33)
+  Source:            c_ball/ball_x_0 (FF)
+  Destination:       oVGA_B (PAD)
+  Source Clock:      iCLK_50 rising
+
+  Data Path: c_ball/ball_x_0 to oVGA_B
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.591   0.610  c_ball/ball_x_0 (c_ball/ball_x_0)
+     LUT2:I1->O            1   0.704   0.000  d_ball/Msub_a_square_addsub0000_lut<0> (d_ball/Msub_a_square_addsub0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  d_ball/Msub_a_square_addsub0000_cy<0> (d_ball/Msub_a_square_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<1> (d_ball/Msub_a_square_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<2> (d_ball/Msub_a_square_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<3> (d_ball/Msub_a_square_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<4> (d_ball/Msub_a_square_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<5> (d_ball/Msub_a_square_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<6> (d_ball/Msub_a_square_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<7> (d_ball/Msub_a_square_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<8> (d_ball/Msub_a_square_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<9> (d_ball/Msub_a_square_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<10> (d_ball/Msub_a_square_addsub0000_cy<10>)
+     MUXCY:CI->O           0   0.059   0.000  d_ball/Msub_a_square_addsub0000_cy<11> (d_ball/Msub_a_square_addsub0000_cy<11>)
+     XORCY:CI->O          12   0.804   0.961  d_ball/Msub_a_square_addsub0000_xor<12> (d_ball/a_square_addsub0000<12>)
+     MULT18X18SIO:A12->P12    1   4.705   0.595  d_ball/Mmult_a_square_mult0000 (d_ball/a_square<12>)
+     LUT2:I0->O            1   0.704   0.000  d_ball/Madd__add0000_lut<12> (d_ball/Madd__add0000_lut<12>)
+     MUXCY:S->O            1   0.464   0.000  d_ball/Madd__add0000_cy<12> (d_ball/Madd__add0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<13> (d_ball/Madd__add0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<14> (d_ball/Madd__add0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<15> (d_ball/Madd__add0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<16> (d_ball/Madd__add0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<17> (d_ball/Madd__add0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<18> (d_ball/Madd__add0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<19> (d_ball/Madd__add0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<20> (d_ball/Madd__add0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<21> (d_ball/Madd__add0000_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<22> (d_ball/Madd__add0000_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  d_ball/Madd__add0000_cy<23> (d_ball/Madd__add0000_cy<23>)
+     XORCY:CI->O           1   0.804   0.595  d_ball/Madd__add0000_xor<24> (d_ball/_add0000<24>)
+     LUT3:I0->O            1   0.704   0.000  d_ball/Mcompar_VGA_R_cmp_lt0000_lut<18> (d_ball/Mcompar_VGA_R_cmp_lt0000_lut<18>)
+     MUXCY:S->O            1   0.864   0.499  d_ball/Mcompar_VGA_R_cmp_lt0000_cy<18> (d_ball/Mcompar_VGA_R_cmp_lt0000_cy<18>)
+     LUT2:I1->O            3   0.704   0.531  d_ball/VGA_R_and00001 (oVGA_B_OBUF)
+     OBUF:I->O                 3.272          oVGA_B_OBUF (oVGA_B)
+    ----------------------------------------
+    Total                     19.873ns (16.082ns logic, 3.791ns route)
+                                       (80.9% logic, 19.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 15.42 secs
+ 
+--> 
+
+Total memory usage is 146492 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+
