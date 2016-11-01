@@ -1,0 +1,5 @@
+MO vga_sync NULL vga_sync.v vlg62/vga__sync.bin 1339497324
+MO TETRIS_GAME_MODULE NULL TETRIS_GAME_MODULE.v vlg3D/_t_e_t_r_i_s___g_a_m_e___m_o_d_u_l_e.bin 1339497324
+MO controll_text NULL controll_text.v vlg01/controll__text.bin 1339497324
+MO font_rom NULL font_rom.v vlg6C/font__rom.bin 1339497324
+MO tetris_controll NULL tetris_game.v vlg4B/tetris__controll.bin 1339497324
