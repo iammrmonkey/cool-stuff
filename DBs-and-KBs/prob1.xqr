@@ -1,0 +1,8 @@
+element salary_history {
+	for $s in doc("v-emps.xml")/employees/employee[firstname="Anneke" and lastname="Preusig"]
+    let $dept := doc("v-depts.xml")/departments/department[deptno=$s/deptno]
+    return (element name {concat($s/firstname, ' ', $s/lastname)}, 
+            $dept/deptname, 
+            element interval {attribute tstart {$dept/@tstart}, attribute tend {$dept/@tend}}
+    )
+}
