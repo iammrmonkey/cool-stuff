@@ -1,0 +1,11 @@
+for $emp in doc("v-emps.xml")/employees/employee
+let $salary:=$emp/salary[max(days-from-duration(xs:date(@tend)-xs:date(@tstart)))]
+return 
+    element employee {
+        for $i in $salary
+        return (element name{concat($emp/firstname, ' ', $emp/lastname)}, 
+                element interval {
+                    attribute tstart {$i/@tstart},
+                    attribute tend {$i/@tend}
+                })
+    }

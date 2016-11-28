@@ -1,0 +1,14 @@
+element counts {
+    element company_count {
+        let $e:=doc("v-emps.xml")/employees/employee
+        return count($e)
+    },
+    element dept_counts {
+        for $d in doc("v-depts.xml")/departments/department
+        return 
+            element department {
+                let $e:=doc("v-emps.xml")/employees/employee[deptno=$d/deptno]
+                return ($d/deptname, element dept_count {count($e)})
+            }
+    }
+}

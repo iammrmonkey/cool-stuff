@@ -1,0 +1,11 @@
+element history {
+	for $e in doc("v-emps.xml")/employees/employee
+	for $d in doc("v-depts.xml")/departments/department[deptno=$e/deptno]
+	for $t in $e/title
+    for $m in $d/mgrno
+	where not(xs:date($t/@tend) < xs:date($e/@tstart)) and not(xs:date($t/@tstart) > xs:date($e/@tend)) and 
+          not(xs:date($m/@tend) < xs:date($e/@tstart)) and not(xs:date($m/@tstart) > xs:date($e/@tend))
+	return element employee {
+                (element name {concat($e/firstname, ' ', $e/lastname)}, $t, $m)
+           }
+}

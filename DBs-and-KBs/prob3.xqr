@@ -1,0 +1,10 @@
+element departments {
+	for $d in doc("v-depts.xml")/departments/department
+    let $m:=$d/mgrno[not(xs:date(@tend) < xs:date("1994-05-01")) and not(xs:date(@tstart) > xs:date("1996-05-06"))]
+	return element department {$d/deptno, $d/deptname, $m, 
+        element interval {
+            attribute tstart {"1994-05-01"},
+            attribute tend {"1996-05-06"}
+        }
+    }
+}

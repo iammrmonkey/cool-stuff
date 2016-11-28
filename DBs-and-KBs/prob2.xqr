@@ -1,0 +1,11 @@
+element employees {
+    for $emp in doc("v-emps.xml")/employees/employee
+    for $s in $emp/salary[xs:date(@tstart) <= xs:date('1995-01-06') and xs:date(@tend) >= xs:date('1995-01-06')]
+    let $d := doc("v-depts.xml")/departments/department[deptno=$emp/deptno]
+    where $s < 44000
+    return element employee {
+                 element name {concat($emp/firstname, ' ', $emp/lastname)}, 
+                 $s, 
+                 $d/deptname
+            }
+}
