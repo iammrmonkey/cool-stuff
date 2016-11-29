@@ -1,9 +1,0 @@
-element employees {
-    for $e in doc("v-emps.xml")/employees/employee[deptno="d005"]
-    let $s := max($e/salary[xs:date(@tend) >= fn:current-date()])
-    where $s > 0
-    return element employee {
-               element name {concat($e/firstname, ' ', $e/lastname)}, 
-               element salary {$s}
-           }
-}
