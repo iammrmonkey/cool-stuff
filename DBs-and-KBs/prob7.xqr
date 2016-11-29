@@ -1,0 +1,14 @@
+declare namespace functx = "http://www.functx.com";
+declare function functx:max-node
+  ( $nodes as node()* )  as node()* {
+
+   $nodes[. = max($nodes)]
+ } ;
+element employees {
+    for $e in doc("v-emps.xml")/employees/employee[deptno="d005"]
+    let $s := functx:max-node($e/salary)
+    return element employee {
+               element name {concat($e/firstname, ' ', $e/lastname)}, 
+               element salary {$s}
+    }
+}
